@@ -1,0 +1,102 @@
+#inline{
+    background-color: aqua;
+    display: inline;
+    padding:15px;
+    height:150px ;
+} 
+#inline-block{
+    background-color: greenyellow;
+    display: inline-block;
+    padding:15px;
+    height:150px ;
+} 
+.Align{
+    width: 50%;
+    height: 150px;
+    border:2px solid green;
+    margin:auto;
+}
+img{
+    display: block;
+margin: auto;
+
+}
+.Align2{
+    width: 50%;
+    height: 150px;
+    padding: 0px 200px;
+    border:3px solid green;
+    margin:auto;
+    text-align: center;
+}
+.Align3{
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid red;
+    text-align: center;
+  }
+  .Align4{
+    width: 50%;
+    height: 150px;
+    border:2px solid green;
+    position: relative;
+
+  }
+.SUBDIV{
+    width: 100px;
+    height: 80px;
+    border:2px solid green;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin:auto;
+
+
+}
+.div1 >p{
+    color:blue;
+
+}
+.div2+p{
+    background-color:blue;
+
+}
+a{
+    margin-top:20px;
+    display:inline-block ;
+    border-radius: 10px;
+    text-decoration:none ;
+color:whitesmoke;
+background-color:green;
+padding:20px;
+}
+a:link{
+color:blue;
+}
+a:visited{
+    background-color: rgb(235, 12, 12);
+}
+a:hover{
+    opacity: 1;
+}
+a:active{
+    background-color:#000;
+}
+.text{
+height:200px;
+width:200px;
+border:2px solid greenyellow
+
+
+}
+div.text p:hover{
+    border:5px dotted red;
+}
+div.text p:first-child {
+ color:blue;   
+}
+q:lang(no){
+    quotes: "@" "$";
+  }
